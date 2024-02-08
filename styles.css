@@ -1,12 +1,47 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0%;
+  margin: 0%;
 }
 
-.header {
-  background-color: rgb(255, 255, 255);
-  height: 0px;
-  margin: 0px;
+h3 {
+  text-align: center;
+  color: #029d5b;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+}
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* nav bar */
+
+nav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+
+header li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 15px;
+  text-align: center;
 }
 
 #logo {
@@ -14,25 +49,64 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   float: left;
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
+  text-align: center;
+  padding: 15px 15px;
 }
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px;
+
+/* image principale */
+
+#imageprincipale {
+  padding-top: 90px;
+  background: url(resources/rodion-kutsaev-049M_crau5k-unsplash\ 1.jpg) 50% 50%;
+  height: 600px;
+  background-size: cover;
 }
-ul li a {
-  color: #000000;
-  text-decoration: underline;
+
+h1 {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  color: yellow;
+  margin-right: 40px;
 }
-.menu li {
-  float: right;
-  padding: 20px;
+
+h2 {
+  text-align: right;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 400px;
+  margin-right: 40px;
 }
-.menu li {
-  text-decoration: none;
+
+/* Presentation */
+
+#presentation {
 }
-img {
-  width: 100%;
+h4 {
+  color: #565e65;
+  padding-top: 30px;
+}
+
+#equipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.imagerectangle {
+  height: 200px;
+  width: 200px;
+  clip-path: ellipse(50% 50%);
+}
+
+.imagecarre {
+  height: 200px;
+  width: 200px;
+  clip-path: ellipse(50% 50%);
 }
