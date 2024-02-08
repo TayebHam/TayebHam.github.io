@@ -9,17 +9,24 @@ h3 {
   color: #029d5b;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 30px;
+  font-size: 2.5em;
 }
 li {
   list-style-type: none;
 }
 
 img {
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 
 a {
   text-decoration: none;
+  color: #1c2126;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 
@@ -35,13 +42,15 @@ nav {
 header li {
   float: right;
   font-size: 1.2em;
+  padding: 20px;
 }
 
 header li a {
   text-decoration: none;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
   display: block;
-  padding: 15px 15px;
-  text-align: center;
+  padding: 15px;
 }
 
 #logo {
@@ -50,16 +59,15 @@ header li a {
   float: left;
   font-weight: bold;
   font-size: xx-large;
-  text-align: center;
-  padding: 15px 15px;
+  padding: 25px;
 }
 
 /* image principale */
 
 #imageprincipale {
-  padding-top: 90px;
-  background: url(resources/rodion-kutsaev-049M_crau5k-unsplash\ 1.jpg) 50% 50%;
-  height: 600px;
+  padding-top: 500px;
+  background: url(resources/rodion-kutsaev-049M_crau5k-unsplash\ 1.jpg);
+  height: 500px;
   background-size: cover;
 }
 
@@ -67,15 +75,18 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
   color: yellow;
-  margin-right: 40px;
+  margin-right: 60px;
+  font-size: 4.3em;
+  margin-top: 10px;
 }
 
 h2 {
   text-align: right;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top: 400px;
-  margin-right: 40px;
+  font-family: ;
+  font-size: 3.2em;
+  margin-right: 60px;
+  margin-top: 220px;
 }
 
 /* Presentation */
@@ -83,20 +94,32 @@ h2 {
 #presentation {
 }
 h4 {
-  color: #565e65;
-  padding-top: 30px;
+  color: #1c2126;
+  padding-top: 10px;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 #equipe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 30px;
 }
 
 .image h4 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  color: #1c2126;
+}
+
+.image h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color: #565e65;
 }
 
 .imagerectangle {
@@ -109,4 +132,18 @@ h4 {
   height: 200px;
   width: 200px;
   clip-path: ellipse(50% 50%);
+}
+
+/* bandeau de satisfaction */
+
+#satisfaction {
+  background-color: #053b44;
+  display: flex;
+}
+h6 {
+  justify-content: space-between;
+  text-align: center;
+  color: #d5f31f;
+  font-size: 2em;
+  padding: 10px;
 }
