@@ -11,13 +11,22 @@ h3 {
   padding-top: 30px;
   font-size: 2.5em;
 }
-li {
-  list-style-type: none;
+
+#textepresentation p {
+  text-align: center;
+  color: #1c2126;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7em;
 }
 
-img {
-  height: auto;
-  width: auto;
+#equipe p {
+  color: #565e65;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {
@@ -41,8 +50,9 @@ nav {
 
 header li {
   float: right;
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding: 20px;
+  font-weight: bold;
 }
 
 header li a {
@@ -96,42 +106,21 @@ h2 {
 h4 {
   color: #1c2126;
   padding-top: 10px;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
 }
-
 #equipe {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 30px;
 }
-
-.image h4 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 1.5em;
-  color: #1c2126;
-}
-
-.image h5 {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 1em;
-  color: #565e65;
-}
-
-.imagerectangle {
-  height: 200px;
-  width: 200px;
-  clip-path: ellipse(50% 50%);
-}
-
-.imagecarre {
-  height: 200px;
-  width: 200px;
-  clip-path: ellipse(50% 50%);
+#equipe .image img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-wrap: wrap;
 }
 
 /* bandeau de satisfaction */
@@ -146,4 +135,53 @@ h6 {
   color: #d5f31f;
   font-size: 2em;
   padding: 10px;
+}
+
+/* ************Services************ */
+
+#services img {
+  width: 350px;
+  display: flex;
+}
+
+#services p {
+  color: #1c2126;
+  font-size: 2.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *******************Contact******************** */
+#Contactez-nous {
+  background-color: #053b44;
+  padding: 100px 0;
+}
+
+#Contactez-nous .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#Contactez-nous .container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+#Contactez-nous .container form input,
+#Contactez-nous .container form textarea {
+  width: 50%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+#Contactez-nous .container form textarea {
+  width: 100%;
 }
